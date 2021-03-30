@@ -14,14 +14,14 @@
                 <i class="fa fa-users fa-3x"></i>
               </div>
               <div class="col mt-4">
-                <h3 class="display-5">{{$pelanggan}}</h3>
+                <h3 class="display-5">{{ $pelanggan }}</h3>
                 <h6>Pelanggan</h6>
               </div>
             </div>
           </div>
           <div class="card-footer">
             <h5>
-              <a href="pelanggan" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="{{ route('pelanggan') }}" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </h5>
           </div>
         </div>
@@ -41,7 +41,7 @@
           </div>
           <div class="card-footer">
             <h5>
-              <a href="penggunaan" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="{{ route('penggunaan') }}" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </h5>
           </div>
         </div>
@@ -61,7 +61,7 @@
           </div>
           <div class="card-footer">
             <h5>
-              <a href="tagihan" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="{{ route('tagihan') }}" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </h5>
           </div>
         </div>
@@ -81,7 +81,7 @@
           </div>
           <div class="card-footer">
             <h5>
-              <a href="laporan" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="{{ route('laporan') }}" class="nav-link">Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </h5>
           </div>
         </div>
